@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sd260-full-featured-repairs/static/css/main.47c0b6d7.chunk.css",
+    "main.js": "/sd260-full-featured-repairs/static/js/main.298bba6a.chunk.js",
+    "main.js.map": "/sd260-full-featured-repairs/static/js/main.298bba6a.chunk.js.map",
+    "runtime-main.js": "/sd260-full-featured-repairs/static/js/runtime-main.b56d025b.js",
+    "runtime-main.js.map": "/sd260-full-featured-repairs/static/js/runtime-main.b56d025b.js.map",
+    "static/js/2.1401a51d.chunk.js": "/sd260-full-featured-repairs/static/js/2.1401a51d.chunk.js",
+    "static/js/2.1401a51d.chunk.js.map": "/sd260-full-featured-repairs/static/js/2.1401a51d.chunk.js.map",
+    "index.html": "/sd260-full-featured-repairs/index.html",
+    "static/css/main.47c0b6d7.chunk.css.map": "/sd260-full-featured-repairs/static/css/main.47c0b6d7.chunk.css.map",
+    "static/js/2.1401a51d.chunk.js.LICENSE.txt": "/sd260-full-featured-repairs/static/js/2.1401a51d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b56d025b.js",
+    "static/js/2.1401a51d.chunk.js",
+    "static/css/main.47c0b6d7.chunk.css",
+    "static/js/main.298bba6a.chunk.js"
+  ]
+}
