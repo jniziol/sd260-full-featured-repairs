@@ -9,6 +9,12 @@ class App extends Component {
     repairs: [],
   };
 
+  componentDidMount = async () => {
+    const response = await fetch("https://5ed0108416017c00165e327c.mockapi.io/api/v1/repairs");
+    const repairs = await response.json();
+    this.setState({ repairs });
+  };
+
   createNewRepair = repairString => {
     this.setState(prevState => {
       return {
@@ -45,7 +51,7 @@ class App extends Component {
         <section className="main">
           <ul className="repair-list">
             {this.state.repairs.map(repair => (
-              <Repair repair={repair} key={repair.id} removeRepair={this.removeRepair} completeRepair={this.completeRepair}/>
+              <Repair repair={repair} key={repair.id} removeRepair={this.removeRepair} completeRepair={this.completeRepair} />
             ))}
           </ul>
         </section>
